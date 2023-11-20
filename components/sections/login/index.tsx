@@ -5,9 +5,12 @@ import { Input } from "codiedigital/dist/cjs/components/inputs";
 
 import { FormHandler } from "src/utils/form-handler";
 
+import Link from "next/link";
+
 import { Banner } from "../banner";
 
 import * as S from "./styles";
+
 
 export function Login() {
   const [inputActive1, setInputActive1] = useState(false);
@@ -52,13 +55,13 @@ export function Login() {
           />
 
           <div className="box-links font-16">
-            <a className="recover-password" href="/">
+            <Link className="recover-password" href="/">
               Esqueceu sua senha?
-            </a>
+            </Link>
 
             <div className="create-account">
               <span>Não possui conta? </span>
-              <a href="/"> Criar conta</a>
+              <Link href="/"> Criar conta</Link>
             </div>
           </div>
         </FormHandler>
