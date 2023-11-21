@@ -1,8 +1,7 @@
 import { ConfigSiteProvider } from "codiedigital/dist/cjs/contexts/configs";
 import { GetInitialConfigsSite } from "codiedigital/dist/cjs/common-ssrs-api/_app";
-import { DynamicFonts } from "codiedigital/dist/cjs/public/fonts/generate-dynamic-fonts/index";
-
 import { ToastContainer } from "react-toastify";
+
 import "react-toastify/dist/ReactToastify.css";
 
 import "swiper/css";
@@ -19,7 +18,7 @@ import SwiperCore, {
   Autoplay,
 } from "swiper";
 
-import { InputStyles, theme, fontsConfiguration } from "src/init-project";
+import { InputStyles, theme } from "src/init-project";
 
 import "swiper/css";
 import "swiper/css/thumbs";
